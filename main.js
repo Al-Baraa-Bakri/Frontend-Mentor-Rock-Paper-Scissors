@@ -76,7 +76,7 @@ scissors.addEventListener("click" , (e) => {
         paper.classList.add("hidden");
         rock.classList.add("hidden");
         gameState = false
-        setTimeout(() => { computerDis("rock")} , 1000)
+        setTimeout(() => { computerDis("scissors")} , 1000)
         }
     }
    
@@ -99,7 +99,7 @@ rock.addEventListener("click" , (e) => {
     scissors.classList.add("hidden");
     paper.classList.add("hidden");
     gameState = false
-    setTimeout(() => { computerDis(e.target.classList[1])} , 1000)
+    setTimeout(() => { computerDis("rock")} , 1000)
         }
     }
     
@@ -113,7 +113,7 @@ rock.addEventListener("click" , (e) => {
         scissors.classList.add("hidden");
         paper.classList.add("hidden");
         gameState = false
-        setTimeout(() => { computerDis(e.target.classList[1])} , 1000)
+        setTimeout(() => { computerDis("rock")} , 1000)
         }
     }
     
